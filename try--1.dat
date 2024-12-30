@@ -1,0 +1,71 @@
+/*********************************************
+ * OPL 12.6.1.0 Data
+ * Author: ESHFAR
+ * Creation Date: Oct 14, 2022 at 7:47:18 PM
+ *********************************************/
+
+OPs = {"A","B"};
+ODCs = {"D1","D2","D3"};
+candidate_ODC = {"P1","P2","P3"};
+DPs = {"R1","R2","R3","R4","R5"};
+oxygen = {"O1"};
+vehicles= {"V1"};
+scenarios = {"S1","S2"};
+
+w1=0.5;
+w2=0.5;
+
+total_budget=100000;//B
+total_available_quantity_oxygen_OPs=
+[[1000,900]];//k(i_g)
+
+Max_num_candidate_ODC=2;//H
+cost_establishing_candidate_ODC=[6000,6500,6350];//Ca
+per_unit_cost_vehicle=[10];//Cl
+
+weight_commodity=[1];//Wg
+volume_commodity=[1.5];//Vg
+
+weight_vehicle=[45];//Wl
+volume_vehicle=[50];//Vl
+
+demand_oxygen_DPs=[[[120,134,156,142,121]],[[80,114,106,126,120]]];//D(g_r)
+
+capacity_of_ODC=[[200,100,150]];//Pj
+capacity_of_candidate_ODC=[[[100,120,115]],[[150,110,120]]];//Na
+
+
+shortage_cost_unsatisfied_demand_oxygen_DPs=[[25,30,15,20,25]];//Trg
+
+emergency_rating=5;//alpha
+
+total_number_vehicle=[85];
+
+probablity_scen=[0.4,0.6];
+
+distance_OPs_ODCs=[
+[110,20,18],
+[10,180,90]];//Sij
+
+
+distance_OPs_candidate_ODC=[
+[35,25,33],
+[25,30,19]];//Eia
+
+
+distance_ODCs_DPs=[
+[10,123,40,78,50],
+[15,25,125,118,53],
+[30,43,39,67,81]];//Mjr
+
+
+distance_candidate_ODC_DPs=[
+[26,24,42,50,58],
+[30,42,53,48,67],
+[23,67,83,59,22]];
+
+
+//TIME
+Max_speed=2.56;//(km/min)
+//max_time=800;
+load_unload_time=[0.063,0.1];//(h)
