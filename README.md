@@ -1,3 +1,3 @@
-# Thesis-BSc.-in-Industrial-and-Production-Engineering-
+# Undergraduate Thesis
 It is a multi-objective Supply Chain model for emergency transportation in order to supply oxygen to the needy regions by using linear programming. In any emergency cases in pandemic periods and different crisis, smooth transportation for oxygen within a short period is needed. So, thinking about this situation and also keeping in mind about the crisis situations where oxygen is must need, we proposed a mixed-integer stochastic programming model for emergency transportation in order to supply oxygen to the needy regions within a short time duration by using linear programming and CPLEX 10.0 software so that there will be no scope of oxygen scarcity and delay of supply. And also be able to minimize the costs and transportation time.
 
